@@ -7,6 +7,7 @@ for x in range(len(items)):
     if(items[x] == search):
         print("found")
         break
-    if(search not in items):
+        
+if(search not in items):
         print("not found")
-        break
+        break  
